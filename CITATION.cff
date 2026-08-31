@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying paper."
+title: "Voice-Agent Social-Engineering Benchmark"
+type: dataset
+authors:
+  - family-names: Narula
+    given-names: Bhavya
+    affiliation: Southeast Missouri State University
+  - family-names: Mitra
+    given-names: Reshmi
+    affiliation: Southeast Missouri State University
+repository-code: "https://github.com/classiccone/voice-agent-dataset"
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-08-31"
+preferred-citation:
+  type: conference-paper
+  title: "The Escalation Trap: Securing Consumer Voice Agents Against Social Engineering"
+  authors:
+    - family-names: Narula
+      given-names: Bhavya
+      affiliation: Southeast Missouri State University
+    - family-names: Mitra
+      given-names: Reshmi
+      affiliation: Southeast Missouri State University
+  year: 2026
+  notes: "Submitted to IEEE CCNC 2027."
