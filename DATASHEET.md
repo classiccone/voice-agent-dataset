@@ -82,15 +82,13 @@ speaker.
 quality-control artifacts in the source materials are dated in this range).
 
 **Ethical review.**
-The Southeast Missouri State University IRB Human Subjects Research
-Determination Worksheet was completed by the PI (Dr. Reshmi Mitra, Associate
-Professor, Computer Science). As filled, the worksheet records that the
-activity is a systematic investigation intended to contribute to generalizable
-knowledge (Section I: yes/yes) and that it involves interaction with
-individuals and the handling of audio recordings (Section II: yes/yes) — i.e.,
-per the worksheet's own decision rule, human subjects research to be submitted
-for IRB review. A formal IRB approval or exemption letter is **not among the
-source materials; Not recorded**.
+SEMO IRB reviewed proposal 20260061, "Voice Recordings for an AI
+Voice-Agent Security Study" (determination issued June 29, 2026,
+Reshmi Mitra, PI), and determined the project does not constitute
+human subjects research under 45 CFR 46 and is therefore not subject
+to IRB review or oversight. Speakers separately provided written
+informed consent covering research use and public release of their
+recordings. See docs/irb_determination_20260061.pdf.
 
 **Consent.**
 Each speaker signed a consent form stating: participation is voluntary;
@@ -126,7 +124,14 @@ benefit).
   legacy code `THR` for escalation_threat.
 - The impersonation taxonomy was consolidated to a single pattern
   (direct_claim); a provisional "fabricated prior session" impersonation
-  sub-pattern was dropped during label review.
+  sub-pattern was dropped during label review. All 66 impersonation samples
+  are direct identity claims — a transcript review found no distinct
+  prior-session attack pattern in the impersonation set (fabricated
+  prior-interaction claims appear in the dataset as the manipulation tactic
+  prior_verification instead). The paper's Section IV.A description of
+  impersonation as comprising two patterns ("direct identity claims and
+  fabricated prior sessions") is stale and should be corrected in the
+  camera-ready version.
 
 **Was the raw data saved?** The original m4a/WAV takes are retained by the
 authors outside this repository. Not distributed.
