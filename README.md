@@ -1,5 +1,7 @@
 # Voice-Agent Social-Engineering Benchmark
 
+![Benchmark overview: 320 spoken calls from 8 speakers, a fictional dental-practice receptionist scenario, three target commands (C1 read notes, C2 change number, C3 transfer to human), and evaluation across five cumulative guardrail levels on GPT-4o and GPT-4o-mini](docs/figures/overview.png)
+
 A 320-sample spoken-audio benchmark for measuring how well prompt-guardrailed,
 LLM-backed customer-service voice agents resist social-engineering attacks.
 Each sample is a single-request phone-call utterance — a legitimate request, an
